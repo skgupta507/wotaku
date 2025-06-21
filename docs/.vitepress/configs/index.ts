@@ -152,6 +152,11 @@ export const shared: UserConfig<DefaultTheme.Config> = {
           )
         }
       ]
+    },
+    server: {
+      watch: {
+        files: ['docs/.vitepress/configs/markdown/tooltips/*.md']
+      }
     }
   }
 }
